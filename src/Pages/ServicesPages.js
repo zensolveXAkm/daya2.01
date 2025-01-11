@@ -1,9 +1,8 @@
-// ServicesPage.js
 import React from 'react';
 import { Fade, Slide } from 'react-awesome-reveal';
 import './css/ServicesPage.css';
 import HeroSection from '../components/HeroSection2'; // Import HeroSection
-import { FaMobileAlt, FaShoppingCart, FaRobot, FaDatabase, FaPaintBrush, FaCheckCircle, } from 'react-icons/fa';
+import { FaMobileAlt, FaShoppingCart, FaRobot, FaDatabase, FaPaintBrush, FaCheckCircle, FaGooglePlay } from 'react-icons/fa';
 import { Bounce } from 'react-awesome-reveal';
 
 const services = [
@@ -36,6 +35,12 @@ const services = [
     title: 'UI/UX Design',
     description: 'Vivid, intuitive designs that blend creativity and functionality to enhance user experiences.',
     imgSrc: 'uiux.png',
+  },
+  {
+    icon: <FaGooglePlay size={60} className="text-green-500" />,
+    title: 'Google Play Console',
+    description: 'Buying and managing unused Google Play Consoles from individuals and software houses at competitive prices, backed by a 50 Lakh investment strategy.',
+    imgSrc: 'google-play-console.png',
   },
 ];
 
