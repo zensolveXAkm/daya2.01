@@ -103,9 +103,9 @@ const ContactPage = () => {
       {/* Company Contact Information */}
       <section className="company-info text-center mt-16 bg-white shadow-lg rounded-lg p-8">
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Contact Information</h3>
-        <p className="text-lg mb-2">Address: 123 Digital Lane, Tech City, World</p>
-        <p className="text-lg mb-2">Phone: +123 456 7890</p>
-        <p className="text-lg mb-4">Email: info@digitalline.com</p>
+        <p className="text-lg mb-2">Address: Near Bus Stand, Chhatarpur, Madhya Pradesh, India</p>
+        <p className="text-lg mb-2">Phone: +91 77480 70846, +91 80853 94618</p>
+        <p className="text-lg mb-4">Email: info@digitallineindia.com</p>
 
         <div className="social-links space-x-6">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
